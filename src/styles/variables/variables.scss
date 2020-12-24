@@ -1,0 +1,57 @@
+@import 'variables-color';
+
+/*
+* Fonts.
+*/
+$font-roboto-bold: 'Roboto-Bold', Arial, sans-serif;
+$font-roboto-regular: 'Roboto-Regular', Arial, sans-serif;
+
+$font-montserrat-bold: 'Montserrat-Bold', Arial, sans-serif;
+$font-montserrat-regular: 'Montserrat-Regular', Arial, sans-serif;
+
+$font-opensans-bold: 'OpenSans-Bold', Arial, sans-serif;
+$font-opensans-regular: 'OpenSans-Regular', Arial, sans-serif;
+
+/*
+* Screens
+*/
+$screen-xs: 460px;
+$screen-md: 680px;
+
+/*
+* Spaces.
+*/
+$space-base: 18px;
+$space-base-half: $space-base/2;
+$space-base-double: $space-base*2;
+$space-base-triple: $space-base*3;
+
+/*
+* Fonts.
+*/
+$font-size-largest: 42px;
+$font-size-large: 20px;
+$font-size-base: 14px;
+$font-size-small: 12px;
+
+/*
+* Body.
+*/
+$body-font-family: $font-opensans-regular;
+$body-font-size: $font-size-base;
+$body-line-height: 1.4;
+
+
+/*
+* Animations.
+*/
+$transition-base: .27s ease-in-out;
+
+
+/*
+* Scrollbar.
+*/
+$scrollbar-size: 8px;
+
+
+
