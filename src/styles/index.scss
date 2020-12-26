@@ -1,3 +1,13 @@
 @import './reset';
-@import './main';
+@import 'variables/variables';
 
+body {
+  overflow: hidden;
+  overflow-y: auto;
+  font-family: $body-font-family;
+  font-size: $body-font-size;
+  line-height: $body-line-height;
+  color: $body-color;
+  background-color: $body-bg;
+
+}
