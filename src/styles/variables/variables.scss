@@ -21,7 +21,7 @@ $screen-md: 680px;
 /*
 * Spaces.
 */
-$space-base: 18px;
+$space-base: 16px;
 $space-base-half: $space-base/2;
 $space-base-double: $space-base*2;
 $space-base-triple: $space-base*3;
@@ -52,6 +52,18 @@ $transition-base: .27s ease-in-out;
 * Scrollbar.
 */
 $scrollbar-size: 8px;
+
+/*
+* Buttons.
+*/
+$button-primary-sm: 36px;
+$button-primary-md: 46px;
+$button-primary-lg: 58px;
+
+$bt-primary-sm-text: 14px;
+$bt-primary-md-text: 14px;
+$bt-primary-lg-text: 16px;
+
 
 
 

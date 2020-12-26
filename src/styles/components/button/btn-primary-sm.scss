@@ -1,0 +1,6 @@
+@import "mixin-btn-variant";
+
+.mp-btn-primary--sm {
+  @include btn-variant($button-primary-sm, $bt-primary-sm-text, $btn-primary-bg, $btn-primary-color, $btn-primary-bg-action);
+
+}

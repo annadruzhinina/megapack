@@ -1,0 +1,32 @@
+@import "../../variables/variables";
+
+@mixin btn-variant($btn-height, $btn-font-size, $background, $color, $background-action) {
+  height: $btn-height;
+  font-family: $font-opensans-regular;
+  font-weight: bold;
+  font-size: $btn-font-size;
+  overflow: hidden;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  padding: $space-base-half $space-base-double;
+  background-color: $background;
+  border-radius: $btn-height/2;
+  color: $color;
+  white-space: nowrap;
+  cursor: pointer;
+  border: 0;
+
+  &:hover,
+  &:active,
+  &:focus {
+    background: $background-action;
+    color: $color;
+  }
+
+
+  // For mobile.
+  @media (max-width: $screen-xs) {
+    width: 100%;
+  }
+}
