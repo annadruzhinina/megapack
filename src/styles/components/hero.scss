@@ -1,0 +1,77 @@
+@import '../variables/variables';
+@import "../mixins/mixin-container";
+
+$btn-space-bottom: 100px;
+$icon-size: 80px;
+
+.mp-hero {
+  background-image: linear-gradient(rgba(54, 63, 72, 0.85), rgba(54, 63, 72, 0.85)), url(../../img/intro-bg-hotel.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  color: $color-white;
+  text-align: center;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  &__container {
+    @include container;
+  }
+
+  &__title {
+    font-size: $font-size-largest;
+    font-family: $font-montserrat-bold;
+    line-height: 1.4;
+    margin-bottom: $space-base;
+  }
+
+  &__list {
+
+    &-item:not(:last-child) {
+      margin-bottom: $space-base-double;
+    }
+
+    // For desktop.
+    @media (min-width: $screen-md) {
+      display: flex;
+      justify-content: center;
+
+      &-item {
+        flex: 1;
+        margin: 0 $space-base-double;
+
+        &:not(:last-child) {
+          margin-bottom: 0;
+        }
+      }
+    }
+
+    &-icon {
+      width: $icon-size;
+      height: $icon-size;
+      color: $color-primary;
+      margin-bottom: $space-base-double;
+    }
+
+    &-description {
+      color: $color-white;
+      font-family: $font-montserrat-bold;
+      font-size: $font-size-base;
+      white-space: nowrap;
+    }
+  }
+
+  &__description {
+    color: $color-grey-light;
+  }
+
+  &__btn {
+    margin-top: $space-base-double;
+    margin-bottom: $btn-space-bottom;
+  }
+}
+
+
+

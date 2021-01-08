@@ -1,5 +1,7 @@
+@import '../variables/variables';
+
 @mixin container() {
-  max-width: 1200px;
-  padding: 0 16px;
+  max-width: $screen-md;
+  padding: 0 $space-base;
   margin: 0 auto;
 }

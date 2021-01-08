@@ -5,7 +5,7 @@ import "../../styles/components/button/btn-primary-md.scss";
 import "../../styles/components/button/btn-primary-sm.scss";
 import "../../styles/components/button/btn-primary-shadow.scss";
 
-function Button({text, btnStyle}) {
+function Button({text, btnStyle, btnClass}) {
   const primaryLg = 'mp-btn-primary--lg';
   const primaryShadow = 'mp-btn-primary--shadow';
   const primaryMd = 'mp-btn-primary--md';
@@ -25,7 +25,7 @@ function Button({text, btnStyle}) {
   }
 
   return (
-    <button className={checkClass(btnStyle)}>{text}</button>
+    <button className={`${checkClass(btnStyle)} ${btnClass}`}>{text}</button>
   );
 }
 
