@@ -16,7 +16,7 @@ $font-opensans-regular: 'OpenSans-Regular', Arial, sans-serif;
 * Screens
 */
 $screen-xs: 460px;
-$screen-md: 960px;
+$screen-md: 680px;
 
 /*
 * Spaces.
@@ -29,16 +29,16 @@ $space-base-triple: $space-base*3;
 /*
 * Fonts.
 */
-$font-size-largest: 60px;
+$font-size-largest: 42px;
 $font-size-large: 20px;
-$font-size-base: 16px;
+$font-size-base: 14px;
 $font-size-small: 12px;
 
 /*
 * Body.
 */
 $body-font-family: $font-opensans-regular;
-$body-font-size: $font-size-large;
+$body-font-size: $font-size-base;
 $body-line-height: 1.4;
 
 

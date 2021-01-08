@@ -1,0 +1,11 @@
+@import '../variables/variables';
+
+.mp-input {
+  width: 100%;
+  display: block;
+  border: 0;
+  height: $input-height;
+  padding: $input-spaces;
+  background-color: $input-bg;
+  margin-bottom: $space-base;
+}

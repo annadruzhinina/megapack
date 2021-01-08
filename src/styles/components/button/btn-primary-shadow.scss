@@ -3,4 +3,5 @@
 .mp-btn-primary--shadow {
   @include btn-variant($button-primary-lg, $bt-primary-lg-text, $btn-primary-bg, $btn-primary-color, $btn-primary-bg-action);
   box-shadow: $btn-primary-shadow;
+  width: 100%;
 }
