@@ -1,0 +1,15 @@
+@import "./variables/variables.scss";
+
+body {
+  font-family: $body-font-family;
+  font-size: $body-font-size;
+  line-height: $body-line-height;
+  overflow: hidden;
+  overflow-y: auto;
+}
+
+a {
+  &:hover {
+    color: $color-primary;
+  }
+}
