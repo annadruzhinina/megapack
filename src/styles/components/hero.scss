@@ -11,10 +11,15 @@ $icon-size: 80px;
   background-position: center;
   color: $color-white;
   text-align: center;
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  padding: $space-base-double 0;
+
+  // For desktop.
+  @media (min-width: $screen-md) {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 
   &__container {
     @include container;
