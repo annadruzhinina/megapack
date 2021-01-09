@@ -2,8 +2,7 @@
 
 @mixin btn-variant($btn-height, $btn-font-size, $background, $color, $background-action) {
   height: $btn-height;
-  font-family: $font-opensans-regular;
-  font-weight: bold;
+  font-family: $font-opensans-bold;
   font-size: $btn-font-size;
   overflow: hidden;
   display: inline-flex;

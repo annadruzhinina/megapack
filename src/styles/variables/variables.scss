@@ -29,17 +29,22 @@ $space-base-triple: $space-base*3;
 /*
 * Fonts.
 */
-$font-size-largest: 42px;
+$font-size-largest: 60px;
+$font-size-larger: 36px;
 $font-size-large: 20px;
-$font-size-base: 14px;
-$font-size-small: 12px;
+$font-size-base: 16px;
 
 /*
 * Body.
 */
 $body-font-family: $font-opensans-regular;
-$body-font-size: $font-size-base;
+$body-font-size: $font-size-large;
 $body-line-height: 1.4;
+
+/*
+* Section.
+*/
+$section-spaces: 85px;
 
 
 /*

@@ -1,0 +1,42 @@
+@import '../variables/variables';
+@import "../mixins/mixin-container";
+
+.mp-products {
+  background-color: $color-grey-lighter;
+  padding: $section-spaces;
+  text-align: center;
+
+  &__container {
+    @include container;
+  }
+
+  &__subtitle {
+    color: $color-primary;
+    text-transform: uppercase;
+    font-family: $font-opensans-bold;
+
+  }
+
+  &__title {
+    font-size: $font-size-larger;
+    font-family: $font-montserrat-bold;
+    line-height: 1.4;
+    padding: $space-base 0;
+  }
+
+  &__description {
+    color: $color-grey-dark;
+    white-space: nowrap;
+  }
+
+  &__list {
+    // For desktop.
+    @media (min-width: $screen-md) {
+      display: flex;
+      justify-content: center;
+    }
+
+    &-item {
+    }
+  }
+}

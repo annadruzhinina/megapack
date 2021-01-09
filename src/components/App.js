@@ -1,7 +1,7 @@
 import React from "react";
 import Button from "../shared/components/Button";
 import Hero from "./Hero";
-
+import Products from "./Products";
 
 function App() {
   return (
@@ -11,6 +11,7 @@ function App() {
       <Button text={'String_3 for test'} btnStyle={'shadow'}/>
       <Button text={'String_4 for test'} btnStyle={'md'}/>*/}
       <Hero/>
+      <Products/>
     </React.Fragment>
   );
 }

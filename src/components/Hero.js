@@ -3,14 +3,10 @@ import {HERO} from "../core/constants";
 import Button from "../shared/components/Button";
 
 import SearchIcon from "mdi-react/SearchIcon";
-import MapAddIcon from "mdi-react/MapAddIcon";
-import DownloadIcon from "mdi-react/DownloadIcon";
-import AlertIcon from "mdi-react/AlertIcon";
 
 import {createInnerHtml} from "../core/utils";
 
 import "../styles/components/hero.scss";
-import PinIcon from "mdi-react/PinIcon";
 import RoomIcon from "mdi-react/RoomIcon";
 
 function Hero() {
