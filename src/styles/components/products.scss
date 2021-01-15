@@ -28,6 +28,25 @@
     color: $color-grey-dark;
     white-space: nowrap;
   }
+}
+
+.mp-card {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  &__title {
+    font-size: $h3-font-size;
+    font-family: $font-montserrat-bold;
+    padding: $space-base 0;
+  }
+
+  &__text {
+    font-size: $font-size-medium;
+    font-family: $font-opensans-regular;
+    color: $color-grey;
+  }
 
   &__list {
     // For desktop.
@@ -35,8 +54,9 @@
       display: flex;
       justify-content: center;
     }
-
-    &-item {
-    }
   }
+   &__body {
+     flex: 1;
+     padding-bottom: $space-base;
+   }
 }

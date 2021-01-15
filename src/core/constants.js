@@ -1,3 +1,7 @@
+import imgParis from '../img/paris-icon.png'
+import imgRome from '../img/rome-icon.png'
+import imgSidney from '../img/sidney-icon.png'
+
 export const HERO = {
   title: 'Luxury Hotels</br>starting from $99',
   description: 'Compare prices from 200+ booking sites to help you find the</br>lowest price on the right hotel for you.',
@@ -28,19 +32,19 @@ export const PRODUCTS = {
   description: 'The best text style you can find on themeforest.',
   cards: [
     {
-      icon: '',
+      icon: imgParis,
       title: 'Visit Paris',
-      text: 'Here\'s a free video course on how to use PixFort, add new content.',
+      text:  `Here's a Here's a free video course on how to use PixFort.`,
       btn_text:'View Deals'
     },
     {
-      icon: '',
+      icon: imgRome,
       title: 'Rome Trip',
       text: 'Here\'s a free video course on how to use PixFort, add new content.',
       btn_text:'View Deals'
     },
     {
-      icon: '',
+      icon: imgSidney,
       title: 'Sidney Offers',
       text: 'Here\'s a free video course on how to use PixFort, add new content.',
       btn_text:'View Deals'

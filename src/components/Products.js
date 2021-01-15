@@ -10,16 +10,21 @@ function Products() {
         <p className="mp-products__subtitle">{PRODUCTS.subtitle}</p>
         <h3 className="mp-products__title">{PRODUCTS.title}</h3>
         <p className="mp-products__description">{PRODUCTS.description}</p>
-        <div className="mp-products__list">
+        <div className="mp-card__list">
           {
             PRODUCTS.cards.map((item, index) => {
               return (
-                <div className="mp-products__list-item">
-                  <p>{item.icon}</p>
-                  <p>{item.title}</p>
-                  <p>{item.text}</p>
+                <div className="mp-card" key={index}>
+                  <div className="mp-card__body">
+                    <div className="mp-card__icon">
+                      <img src={item.icon} alt='product'/>
+                    </div>
+                    <p className='mp-card__title'>{item.title}</p>
+                    <p className='mp-card__text'>{item.text}</p>
+                  </div>
                   <Button text={item.btn_text}/>
                 </div>
+
               )
             })
           }
