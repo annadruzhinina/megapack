@@ -1,0 +1,33 @@
+@import '../variables/variables';
+@import "../mixins/mixin-container";
+
+
+.mp-review {
+  background-color: $color-white;
+  padding: $space-base-double;
+
+  &__text {
+    font-size: $font-size-large;
+    font-family: $font-opensans-regular;
+    color: $color-grey;
+
+  }
+
+  &__name {
+    color: $color-grey-dark;
+    font-family: $font-montserrat-bold;
+    font-size: $h3-font-size;
+  }
+
+  &__website {
+    font-size: $font-size-large;
+    font-family: $font-opensans-regular;
+    color: $color-grey;
+  }
+
+  &__img {
+
+  }
+
+}
+

@@ -1,0 +1,51 @@
+@import '../variables/variables';
+@import "../mixins/mixin-section";
+
+$img-height: 220px;
+$img-width: 300px;
+
+.mp-ad {
+  @include section-variant($color-white);
+
+  &__card {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    &-list {
+      padding-top: $space-base-triple;
+
+      // For desktop.
+      @media (min-width: $screen-md) {
+        display: flex;
+        justify-content: center;
+      }
+    }
+
+    &-body {
+      flex: 1;
+      padding-bottom: $space-base;
+      margin: $space-base;
+    }
+
+    &-img {
+      width: $img-width;
+      height: $img-height;
+    }
+
+    &-title {
+      font-size: $h3-font-size;
+      font-family: $font-montserrat-bold;
+      padding: $space-base 0;
+    }
+
+    &-text {
+      font-size: $font-size-medium;
+      font-family: $font-opensans-bold;
+      color: $color-primary;
+    }
+  }
+}
+
+

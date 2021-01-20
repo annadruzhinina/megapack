@@ -1,0 +1,13 @@
+@import '../variables/variables';
+
+.mp-sponsors {
+  display: flex;
+  padding-top: $space-base-double;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: -$space-base;
+
+  &__img {
+    padding: $space-base;
+  }
+}

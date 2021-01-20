@@ -2,6 +2,9 @@ import React from "react";
 import Button from "../shared/components/Button";
 import Hero from "./Hero";
 import Products from "./Products";
+import Advertisement from "./Advertisement";
+import Tripadvisor from "./Tripadvisor";
+import Review from "./Review";
 
 function App() {
   return (
@@ -12,6 +15,9 @@ function App() {
       <Button text={'String_4 for test'} btnStyle={'md'}/>*/}
       <Hero/>
       <Products/>
+      <Advertisement/>
+      <Tripadvisor/>
+      <Review/>
     </React.Fragment>
   );
 }

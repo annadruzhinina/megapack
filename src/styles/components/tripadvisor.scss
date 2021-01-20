@@ -1,0 +1,38 @@
+@import '../variables/variables';
+@import "../mixins/mixin-container";
+
+$banner-height: 430px;
+
+.mp-tripadvisor {
+  background-color: $color-white;
+  padding: $space-base-double;
+
+  &__container {
+    @include container;
+  }
+
+  &__banner {
+    background-image: linear-gradient(rgba(54, 63, 72, 0.85), rgba(54, 63, 72, 0.85)), url(../../img/box-bg.jpg);
+    background-position: center;
+    color: $color-white;
+    height: $banner-height;
+    border-radius: 3px;
+    padding: $space-base $space-base-double;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  &__title {
+    font-size: $font-size-larger;
+    font-family: $font-montserrat-bold;
+    line-height: 1.4;
+    padding: $space-base 0;
+  }
+
+  &__description {
+    color: $color-grey-light;
+    font-size: $font-size-base;
+    padding-bottom: $space-base-double;
+  }
+}

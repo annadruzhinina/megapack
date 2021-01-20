@@ -2,5 +2,5 @@
 
 .mp-btn-primary--md {
   @include btn-variant($button-primary-md, $bt-primary-md-text, $btn-primary-bg, $btn-primary-color, $btn-primary-bg-action);
-
+  text-transform: uppercase;
 }
